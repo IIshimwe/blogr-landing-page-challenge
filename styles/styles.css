@@ -193,23 +193,23 @@ a {
   transform: scale(1.25);
 }
 
-.text-block {
+.text-side {
   text-align: center;
   width: 98%;
 }
 
-.text-block h3 {
+.text-side h3 {
   color: #1f3f5b;
   font-size: 2.8rem;
   margin-top: 4.2rem;
   line-height: 3.2rem;
 }
 
-.text-block h3 span {
+.text-side h3 span {
   display: block;
 }
 
-.text-block p {
+.text-side p {
   margin-top: 2.5rem;
   font-size: 1.7rem;
   color: #4b5862;
@@ -217,7 +217,7 @@ a {
   font-weight: 300;
 }
 
-.img-laptop {
+.image-laptop-view {
   margin-top: 7.8rem;
   margin-bottom: 6rem;
   width: 100%;
@@ -225,13 +225,13 @@ a {
   transform: scale(1.52);
 }
 
-.empty {
+.empty-class {
   width: 100%;
   position: relative;
   height: 26.5rem;
 }
 
-.img-phones {
+.image-mobile {
   position: absolute;
   top: 0;
   left: -8px;
@@ -252,19 +252,19 @@ a {
   border-top-right-radius: 100px;
 }
 
-.text-block-phones {
+.mobile-text-view {
   text-align: center;
   width: 98%;
 }
 
-.text-block-phones h3 {
+.mobile-text-view h3 {
   color: #fff;
   font-size: 4rem;
   margin-top: 1.4rem;
   line-height: 5rem;
 }
 
-.text-block-phones p {
+.mobile-text-view p {
   margin-top: 1.8rem;
   font-size: 1.7rem;
   color: #fff;
@@ -277,7 +277,7 @@ a {
 }
 
 .img-editor-desktop,
-.img-laptop-desktop {
+.image-desktop-laptop {
   display: none;
 }
 
@@ -671,7 +671,7 @@ a {
   }
 
   .img-editor,
-  .img-laptop {
+  .image-laptop-view {
     display: none;
   }
   .img-editor-desktop {
@@ -688,14 +688,14 @@ a {
   .section h2 {
     font-size: 4rem;
   }
-  .text-block {
+  .text-side {
     width: 48%;
     text-align: left;
   }
-  .text-block h3 {
+  .text-side h3 {
     margin-top: 10.5rem;
   }
-  .text-block h3 span {
+  .text-side h3 span {
     display: initial;
   }
   .content-wrapper {
@@ -703,10 +703,10 @@ a {
     -ms-flex-align: start;
     align-items: flex-start;
   }
-  .empty {
+  .empty-class {
     height: 4rem;
   }
-  .img-phones {
+  .image-mobile {
     z-index: 1;
     top: -11rem;
     left: 12rem;
@@ -724,11 +724,11 @@ a {
   .middle .content-wrapper {
     width: 49%;
   }
-  .text-block-phones {
+  .mobile-text-view {
     text-align: left;
     width: 100%;
   }
-  .text-block-phones h3 {
+  .mobile-text-view h3 {
     font-size: 3.8rem;
     margin-top: 8rem;
   }
@@ -737,7 +737,7 @@ a {
     -ms-flex-align: end;
     align-items: flex-end;
   }
-  .img-laptop-desktop {
+  .image-desktop-laptop {
     position: absolute;
     left: -19%;
     top: 12%;
